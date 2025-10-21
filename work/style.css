@@ -1,0 +1,49 @@
+html {
+    font-family: 'Cambria', 'Times New Roman',serif;
+    color: black;
+}
+title {
+    margin: 10px auto;
+}
+p {
+    width: 60%;
+    margin: 10px auto;
+}
+dt {
+    width: 60%;
+}
+dd {
+    width: 80%;
+}
+img {
+    width: 200px
+}
+table {
+    table-layout: fixed;
+    width: 90%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+caption {
+    padding: 0.25em;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+th,td {
+    vertical-align: top;
+    padding: 0.5em;
+    border-left: 1px solid #999999;
+}
+tbody tr:nth-child(odd) {
+    background-color: #EEEEEE;
+}
+tr {
+    text-align: center;
+}
+tfoot {
+    border-top: 1px solid #999999;
+}
